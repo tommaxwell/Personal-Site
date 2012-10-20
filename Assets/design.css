@@ -31,7 +31,7 @@ body {
 #sitecontent .leftsidebar ul {
 	text-align:justify;
 	list-style-type: none;
-	/* Replace with your own. Klavika is a custom font. */
+	/* Replace with your own font. Klavika is custom. */
 	font-family: klavika_lightlight;
 	
 }
@@ -57,7 +57,7 @@ body {
 	font-size:60px;
 	color: #3f83ca;
 	line-height: 0;
-	/* Replace with your own. Klavika is a custom font. */
+	/* Replace with your own font. Klavika is custom. */
 	font-family: klavika_mediummedium;
 	
 }
@@ -65,14 +65,14 @@ body {
 #sitecontent .rightsidebar > h2 {
 	line-height: 23px;
 	color: #38414f;
-	/* Replace with your own. Klavika is a custom font. */
+	/* Replace with your own font. Klavika is custom. */
 	font-family: klavika_rgregular;
 }
 
 #sitecontent .rightsidebar > p {
 	padding-top: 15px;
 	line-height: 20px;
-	/* Replace with your own. Klavika is a custom font. */
+	/* Replace with your own font. Klavika is custom. */
 	font-family:klavika_lightlight;
 
 	
