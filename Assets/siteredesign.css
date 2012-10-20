@@ -1,0 +1,122 @@
+body {
+	background-color: white;
+	
+	padding: 0;
+	margin: 0;
+	z-index: 0;
+	font-family: klavika;
+	
+}
+
+
+
+@font-face {
+    font-family: 'klavika_rgregular';
+    src: url('klavika-regular-webfont.eot');
+    src: url('klavika-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('klavika-regular-webfont.woff') format('woff'),
+         url('klavika-regular-webfont.ttf') format('truetype'),
+         url('klavika-regular-webfont.svg#klavika_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'klavika_lightlight';
+    src: url('klavikalight-osf-webfont.eot');
+    src: url('klavikalight-osf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('klavikalight-osf-webfont.woff') format('woff'),
+         url('klavikalight-osf-webfont.ttf') format('truetype'),
+         url('klavikalight-osf-webfont.svg#klavika_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'klavika_mediummedium';
+    src: url('klavikamedium-ostf-webfont.eot');
+    src: url('klavikamedium-ostf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('klavikamedium-ostf-webfont.woff') format('woff'),
+         url('klavikamedium-ostf-webfont.ttf') format('truetype'),
+         url('klavikamedium-ostf-webfont.svg#klavika_mediummedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#sitecontent {
+	display: block;
+	width: 780px;
+	padding-top: 200px;
+	margin: 0 auto;
+}
+
+
+#sitecontent .leftsidebar {
+	float: left;
+	width: 150px;
+}
+
+#profilepic {
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+#sitecontent .leftsidebar ul {
+	text-align:justify;
+	list-style-type: none;
+	font-family: klavika_lightlight;
+	
+}
+
+
+#sitecontent .leftsidebar ul li a {
+	text-decoration: none;
+	color: #3f83ca;
+}
+
+#sitecontent .leftsidebar ul li{
+	margin-bottom: 2px;
+}
+
+#sitecontent .leftsidebar ul li a:hover {
+	opacity: 0.9;
+}
+
+#sitecontent .rightsidebar {
+	float: right;
+	width: 600px;
+	
+}
+
+#sitecontent .rightsidebar > h1 {
+	font-size:60px;
+	color: #3f83ca;
+	line-height: 0;
+	font-family: klavika_mediummedium;
+	
+}
+
+#sitecontent .rightsidebar > h2 {
+	line-height: 23px;
+	color: #38414f;
+	font-family: klavika_rgregular;
+}
+
+#sitecontent .rightsidebar > p {
+	padding-top: 15px;
+	line-height: 20px;
+	font-family:klavika_lightlight;
+	opacity: 0.7;
+
+	
+}
