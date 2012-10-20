@@ -2,6 +2,7 @@
 
 
 <p> This project is a simple personal website made in HTML and CSS. Feel free to copy it and use it as your own,
-but remember to change the link destinations, picture, and main paragraph.</p>
+but remember to change the link destinations, picture, and main paragraph. The font I used on my deployment is <a href
+= "http://processtypefoundry.com/fonts/klavika/">Klavika</a>, so you'll have to purchase it or use your own. </p>
 
 <b>Here's the site in action: http://www.tommaxwell.me</b>
