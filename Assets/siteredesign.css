@@ -10,7 +10,47 @@ body {
 
 
 
+@font-face {
+    font-family: 'klavika_rgregular';
+    src: url('klavika-regular-webfont.eot');
+    src: url('klavika-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('klavika-regular-webfont.woff') format('woff'),
+         url('klavika-regular-webfont.ttf') format('truetype'),
+         url('klavika-regular-webfont.svg#klavika_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+
+
+
+@font-face {
+    font-family: 'klavika_lightlight';
+    src: url('klavikalight-osf-webfont.eot');
+    src: url('klavikalight-osf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('klavikalight-osf-webfont.woff') format('woff'),
+         url('klavikalight-osf-webfont.ttf') format('truetype'),
+         url('klavikalight-osf-webfont.svg#klavika_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'klavika_mediummedium';
+    src: url('klavikamedium-ostf-webfont.eot');
+    src: url('klavikamedium-ostf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('klavikamedium-ostf-webfont.woff') format('woff'),
+         url('klavikamedium-ostf-webfont.ttf') format('truetype'),
+         url('klavikamedium-ostf-webfont.svg#klavika_mediummedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 #sitecontent {
@@ -34,7 +74,6 @@ body {
 #sitecontent .leftsidebar ul {
 	text-align:justify;
 	list-style-type: none;
-	/*This is a custom font. Use your own. */
 	font-family: klavika_lightlight;
 	
 }
@@ -43,10 +82,7 @@ body {
 #sitecontent .leftsidebar ul li a {
 	text-decoration: none;
 	color: #3f83ca;
-}
-
-#sitecontent .leftsidebar ul li{
-	margin-bottom: 2px;
+	padding-bottom: 5px;
 }
 
 #sitecontent .leftsidebar ul li a:hover {
@@ -63,7 +99,6 @@ body {
 	font-size:60px;
 	color: #3f83ca;
 	line-height: 0;
-	/* This is a custom font. Add your own. */
 	font-family: klavika_mediummedium;
 	
 }
@@ -71,16 +106,13 @@ body {
 #sitecontent .rightsidebar > h2 {
 	line-height: 23px;
 	color: #38414f;
-	/* This is a custom font. Add your own. */
 	font-family: klavika_rgregular;
 }
 
 #sitecontent .rightsidebar > p {
 	padding-top: 15px;
 	line-height: 20px;
-	/*This is a custom font. Add your own. */
 	font-family:klavika_lightlight;
-	opacity: 0.7;
 
 	
 }
