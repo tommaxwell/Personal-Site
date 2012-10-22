@@ -9,7 +9,7 @@ body {
 }
 
 
-
+/*This is my own embedded font. Use your own. :) */
 @font-face {
     font-family: 'klavika_rgregular';
     src: url('klavika-regular-webfont.eot');
@@ -23,8 +23,7 @@ body {
 }
 
 
-
-
+/*This is my own embedded font. Use your own. :) */
 @font-face {
     font-family: 'klavika_lightlight';
     src: url('klavikalight-osf-webfont.eot');
@@ -39,7 +38,7 @@ body {
 
 
 
-
+/*This is my own embedded font. Use your own. :) */
 @font-face {
     font-family: 'klavika_mediummedium';
     src: url('klavikamedium-ostf-webfont.eot');
