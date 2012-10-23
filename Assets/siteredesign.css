@@ -52,8 +52,7 @@ body {
 
 #sitecontent a:hover {
 	opacity: 0.9;
-	-moz-opacity: 0.9;
-	-webkit-opacity: 0.9;
+	-webkit-moz:0.7;
 }
 
 #sitecontent .rightsidebar {
@@ -91,8 +90,7 @@ body {
 
 #secondparagraph {
 	opacity: 0.5;
-	-moz-opacity: 0.5;
-	-webkit-opacity: 0.4;
+
 	
 }
 
