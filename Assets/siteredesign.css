@@ -1,17 +1,24 @@
 body {
-	padding: 0 auto;
-	margin: 0 auto;
+
 	
+
 }
 
+	@-moz-document url-prefix() {
+    * { font-weight: 100; }
+    h1, h2 
+    }
 
+x:-o-prefocus, h1 {
+	padding-top: 22px;
+}
 
-
-
-
-
-
+x:-o-prefocus, h2 {
+	margin-top: -22px;
+}
+ 
 #sitecontent {
+	overflow: hidden;
 	display: block;
 	width: 780px;
 	padding-top: 150px;
@@ -51,7 +58,7 @@ body {
 
 #sitecontent a:hover {
 	opacity: 0.9;
-	-webkit-moz:0.7;
+
 }
 
 #sitecontent .rightsidebar {
@@ -70,7 +77,6 @@ body {
 
 #sitecontent .rightsidebar > h2 {
 	line-height: 10px;
-	font-weight: bold;
 	color: #38414f;
 	font-family: 'Cantora One', sans-serif;
 }
@@ -93,8 +99,7 @@ body {
 #secondparagraph:hover {
 	color:#3f83ca;
 	opacity: 1.0;
-	-moz-opacity: 1.0;
-	-webkit-opacity: 1.0;
+
 }
 
 #secondparagraph a {
