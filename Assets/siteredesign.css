@@ -32,7 +32,6 @@ body {
 	position: relative;
 	top: -5px;
 	list-style-type: none;
-	/*This is a custom font. Use your own. */
 	font-family: 'Cantora One', sans-serif;
 	
 }
@@ -65,7 +64,6 @@ body {
 	font-size:60px;
 	color: #3f83ca;
 	line-height: 0;
-	/* This is a custom font. Add your own. */
 	font-family: 'Cantora One', sans-serif;
 	
 }
@@ -74,14 +72,12 @@ body {
 	line-height: 10px;
 	font-weight: bold;
 	color: #38414f;
-	/* This is a custom font. Add your own. */
 	font-family: 'Cantora One', sans-serif;
 }
 
 #sitecontent .rightsidebar > p {
 	padding-top: 16px;
 	line-height: 20px;
-	/*This is a custom font. Add your own. */
 	font-family: 'Cantora One', sans-serif;
 	
 
