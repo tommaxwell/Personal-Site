@@ -1,61 +1,20 @@
 body {
-	background-color: white;
-	
-	padding: 0;
-	margin: 0;
-	z-index: 0;
-	font-family: klavika;
+	padding: 0 auto;
+	margin: 0 auto;
 	
 }
 
 
-/*This is my own embedded font. Use your own. :) */
-@font-face {
-    font-family: 'klavika_rgregular';
-    src: url('klavika-regular-webfont.eot');
-    src: url('klavika-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('klavika-regular-webfont.woff') format('woff'),
-         url('klavika-regular-webfont.ttf') format('truetype'),
-         url('klavika-regular-webfont.svg#klavika_rgregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-/*This is my own embedded font. Use your own. :) */
-@font-face {
-    font-family: 'klavika_lightlight';
-    src: url('klavikalight-osf-webfont.eot');
-    src: url('klavikalight-osf-webfont.eot?#iefix') format('embedded-opentype'),
-         url('klavikalight-osf-webfont.woff') format('woff'),
-         url('klavikalight-osf-webfont.ttf') format('truetype'),
-         url('klavikalight-osf-webfont.svg#klavika_lightlight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 
 
-/*This is my own embedded font. Use your own. :) */
-@font-face {
-    font-family: 'klavika_mediummedium';
-    src: url('klavikamedium-ostf-webfont.eot');
-    src: url('klavikamedium-ostf-webfont.eot?#iefix') format('embedded-opentype'),
-         url('klavikamedium-ostf-webfont.woff') format('woff'),
-         url('klavikamedium-ostf-webfont.ttf') format('truetype'),
-         url('klavikamedium-ostf-webfont.svg#klavika_mediummedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
 
 
 #sitecontent {
 	display: block;
 	width: 780px;
-	padding-top: 200px;
+	padding-top: 150px;
 	margin: 0 auto;
 }
 
@@ -67,25 +26,34 @@ body {
 
 #profilepic {
 	-moz-border-radius: 20px;
-	-webkit-border-radius: 20px;
 	border-radius: 20px;
 }
 #sitecontent .leftsidebar ul {
-	text-align:justify;
+	position: relative;
+	top: -5px;
 	list-style-type: none;
-	font-family: klavika_lightlight;
+	/*This is a custom font. Use your own. */
+	font-family: 'Cantora One', sans-serif;
 	
 }
 
 
-#sitecontent .leftsidebar ul li a {
+#sitecontent a {
 	text-decoration: none;
 	color: #3f83ca;
-	padding-bottom: 5px;
 }
 
-#sitecontent .leftsidebar ul li a:hover {
+
+
+
+#sitecontent .leftsidebar ul li{
+	margin-bottom: 2px;
+}
+
+#sitecontent a:hover {
 	opacity: 0.9;
+	-moz-opacity: 0.9;
+	-webkit-opacity: 0.9;
 }
 
 #sitecontent .rightsidebar {
@@ -98,20 +66,44 @@ body {
 	font-size:60px;
 	color: #3f83ca;
 	line-height: 0;
-	font-family: klavika_mediummedium;
+	/* This is a custom font. Add your own. */
+	font-family: 'Cantora One', sans-serif;
 	
 }
 
 #sitecontent .rightsidebar > h2 {
-	line-height: 23px;
+	line-height: 10px;
+	font-weight: bold;
 	color: #38414f;
-	font-family: klavika_rgregular;
+	/* This is a custom font. Add your own. */
+	font-family: 'Cantora One', sans-serif;
 }
 
 #sitecontent .rightsidebar > p {
-	padding-top: 15px;
+	padding-top: 16px;
 	line-height: 20px;
-	font-family:klavika_lightlight;
+	/*This is a custom font. Add your own. */
+	font-family: 'Cantora One', sans-serif;
+	
 
 	
+}
+
+#secondparagraph {
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-webkit-opacity: 0.4;
+	
+}
+
+#secondparagraph:hover {
+	color:#3f83ca;
+	opacity: 1.0;
+	-moz-opacity: 1.0;
+	-webkit-opacity: 1.0;
+}
+
+#secondparagraph a {
+	text-decoration: none;
+	color: inherit;
 }
