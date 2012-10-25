@@ -8,6 +8,9 @@ body {
     * { font-weight: 100; }
     h1, h2 
     }
+    
+    
+@font-face { font-family: 'helvetica neue'; src: local('Arial'); } 
 
 x:-o-prefocus, h1 {
 	padding-top: 22px;
@@ -16,9 +19,12 @@ x:-o-prefocus, h1 {
 x:-o-prefocus, h2 {
 	margin-top: -22px;
 }
+
+x:-o-prefocus, ul li {
+	line-height: 20px;
+}
  
 #sitecontent {
-	overflow: hidden;
 	display: block;
 	width: 780px;
 	padding-top: 150px;
@@ -39,8 +45,7 @@ x:-o-prefocus, h2 {
 	position: relative;
 	top: -5px;
 	list-style-type: none;
-	font-family: 'Cantora One', sans-serif;
-	
+	font-family: 'Patua One', cursive;
 }
 
 
@@ -71,20 +76,22 @@ x:-o-prefocus, h2 {
 	font-size:60px;
 	color: #3f83ca;
 	line-height: 0;
-	font-family: 'Cantora One', sans-serif;
+	font-family: 'Patua One', cursive;
 	
 }
 
 #sitecontent .rightsidebar > h2 {
 	line-height: 10px;
 	color: #38414f;
-	font-family: 'Cantora One', sans-serif;
+	font-family: 'Patua One', cursive;
+	
 }
 
 #sitecontent .rightsidebar > p {
 	padding-top: 16px;
 	line-height: 20px;
-	font-family: 'Cantora One', sans-serif;
+	font-size: 15px;
+	font-family:'Helvetica Neue', Arial, sans-serif;
 	
 
 	
@@ -92,6 +99,7 @@ x:-o-prefocus, h2 {
 
 #secondparagraph {
 	opacity: 0.5;
+	font-family:'Helvetica Neue', Arial, sans-serif;
 
 	
 }
@@ -103,6 +111,7 @@ x:-o-prefocus, h2 {
 }
 
 #secondparagraph a {
+	font-size: 14px;
 	text-decoration: none;
 	color: inherit;
 }
