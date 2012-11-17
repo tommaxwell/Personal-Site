@@ -1,10 +1,9 @@
 
 
-	@-moz-document url-prefix() {
-    * { font-weight: 100; }
-    h1, h2 
-    }
-    
+@-moz-document url-prefix() {
+* { font-weight: 400; }
+h1, h2 
+}
     
 @font-face { font-family: 'helvetica neue'; src: local('Arial'); } 
 
@@ -19,6 +18,7 @@ x:-o-prefocus, h2 {
 x:-o-prefocus, ul li {
 	line-height: 20px;
 }
+
  
 #sitecontent {
 	display: block;
@@ -26,7 +26,6 @@ x:-o-prefocus, ul li {
 	padding-top: 150px;
 	margin: 0 auto;
 }
-
 
 #sitecontent .leftsidebar {
 	float: left;
@@ -42,25 +41,29 @@ x:-o-prefocus, ul li {
 	top: -5px;
 	list-style-type: none;
 	font-family: 'Patua One', cursive;
+	
 }
-
 
 #sitecontent a {
 	text-decoration: none;
 	color: #3f83ca;
 }
 
-
-
-
 #sitecontent .leftsidebar ul li{
-	margin-bottom: 2px;
+	margin-bottom: 4px;
+	display: inline;
+	float: left;
+	clear: both;
+	border-bottom: 1px solid #E5E5E5;
+	font-family: helvetica;
+	font-weight: 400;
 }
 
-#sitecontent a:hover {
-	opacity: 0.9;
-
+#sitecontent .leftsidebar ul li:hover {
+	border-bottom: 1px solid #3f83ca;
 }
+
+
 
 #sitecontent .rightsidebar {
 	float: right;
@@ -70,31 +73,36 @@ x:-o-prefocus, ul li {
 
 #sitecontent .rightsidebar > h1 {
 	font-size:60px;
+	font-weight: normal;
 	color: #3f83ca;
 	line-height: 0;
-	font-family: 'Patua One', cursive;
+	font-family: helvetica;
+	font-weight:bold;
 	
 }
 
 #sitecontent .rightsidebar > h2 {
 	line-height: 10px;
+	font-weight: normal;
 	color: #38414f;
-	font-family: 'Patua One', cursive;
+	font-family: helvetica;
+	font-weight: bold;
 	
 }
 
 #sitecontent .rightsidebar > p {
+	text-align: justify;
 	padding-top: 16px;
 	line-height: 20px;
 	font-size: 15px;
 	font-family:'Helvetica Neue', Arial, sans-serif;
 	
-
 	
 }
 
 #secondparagraph {
-	opacity: 0.5;
+	text-align: justify;
+	color: #A1A1A1;
 	font-family:'Helvetica Neue', Arial, sans-serif;
 
 	
@@ -110,4 +118,97 @@ x:-o-prefocus, ul li {
 	font-size: 14px;
 	text-decoration: none;
 	color: inherit;
+}
+
+@media screen and (max-width: 650px) {
+
+
+#sitecontent {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+	
+#sitecontent .leftsidebar {
+	position: relative;
+	margin: 0 auto;
+	float: none;
+	width: 100%;
+}
+
+#profilepic {
+	width: 50%;
+	margin-left: 77px;
+	float: none;
+	border-radius: 80px;
+}
+
+#sitecontent .leftsidebar ul {
+	position: relative;
+	top:35px;
+	margin: 0 auto;
+	margin-top: 25px;
+	float: none;
+	
+}
+
+#sitecontent .leftsidebar ul li{
+	float: none;
+	padding:10px;
+	border-radius: 2px;
+	border-bottom: none;
+	background-color:#3f83ca;
+	font-family: helvetica;
+	font-weight: 400;
+	border: 1px solid #00688B;
+	}
+
+#sitecontent a {
+	text-decoration: none;
+	color: #EDEDED;
+}
+
+#sitecontent .leftsidebar ul li:hover {
+	border-bottom: none;
+}
+
+#sitecontent .rightsidebar {
+	position: relative;
+	float: none;
+	margin: 0 auto;
+	margin-top: 23px;
+	width: 100%;
+	
+}
+
+#sitecontent .rightsidebar > h1 {
+	position: relative;
+	bottom: 47px;
+	text-align: center;
+	font-size:30px;
+	font-weight: 600;
+	color: #3f83ca;
+	line-height: 0;
+	margin-top: 10px;
+	font-family: helvetica;
+	font-weight:bold;
+		
+}
+
+#sitecontent .rightsidebar > h2 {
+	display:none;
+	
+}
+
+#secondparagraph {
+	display: none;
+	
+}
+
+#sitecontent .rightsidebar > p > a:first-child {
+	color:#3f83ca;
+}
+
+
+
 }
