@@ -39,7 +39,8 @@ max-width: 100%;
 }
 #sitecontent .leftsidebar ul {
 position: relative;
-top:-5px;
+margin-left: 40px;
+top:10px;
 list-style-type: none;
 font-family: 'Patua One', cursive;
 
@@ -52,7 +53,7 @@ color: #3f83ca;
 
 #sitecontent .leftsidebar ul li{
 display:inline;
-margin-bottom: 3%;
+margin:2px;
 float: left;
 clear: both;
 border-bottom: 1px solid #E5E5E5;
@@ -73,9 +74,7 @@ width: 76.9%;
 
 #sitecontent .rightsidebar > h1 {
 font-size:3.750em;
-font-weight: normal;
 color: #3f83ca;
-line-height: 0;
 font-family: helvetica;
 font-weight:bold;
 
@@ -83,7 +82,7 @@ font-weight:bold;
 
 #sitecontent .rightsidebar > h2 {
 line-height: 10px;
-font-weight: normal;
+font-size: 1.2em;
 color: #38414f;
 font-family: helvetica;
 font-weight: bold;
@@ -92,7 +91,7 @@ font-weight: bold;
 
 #sitecontent .rightsidebar > p {
 text-align: justify;
-padding-top: 16px;
+padding-top: 25px;
 line-height: 20px;
 font-size: 0.938em;
 font-family:'Helvetica Neue', Arial, sans-serif;
