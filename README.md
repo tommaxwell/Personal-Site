@@ -9,4 +9,10 @@ but remember to change the link destinations, picture, and main paragraph. The f
 
 <b>Update: October 25, 2012 -</b> I've fixed compatibility issues with the Opera browser, so the template should look almost exactly the same across all of the major browsers, save for some differences in things like font-weight and margins. 
 
+<<<<<<< HEAD
 <b>Update: November 20, 2012 -</b> First update in quite some time! This update includes the addition of a media query for mobile responsive design! That's the good news. The bad news is that it has a pretty major bug that I'm trying to resolve regarding the ul navigation and the margin in its div. My schedule is pretty hectic right now, so I'll update it within the next day or two. Alternatively, you can just do it yourself. Also, there are a couple breakpoints that I still need to optimize with the responsive design, and those'll be out in the next day or two as well. 
+=======
+<b>Update: November 20, 2012 -</b> First update in quite some time! This update includes the addition of a media query for mobile responsive design! That's the good news. The bad news is that it has a pretty major bug that I'm trying to resolve regarding the ul navigation and the margin in its div. My schedule is pretty hectic right now, so I'll update it within the next day or two. Alternatively, you can just do it yourself. Also, there are a couple breakpoints that I still need to optimize with the responsive design, and those'll be out in the next day or two as well. 
+
+<b>Update: November 20, 2012 -</b> I've added the YUI CSS reset for better browser compatibility. You're welcome.
+>>>>>>> a87081fd7cf46ec7666fe4a61df0a310e2ec98af
