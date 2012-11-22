@@ -1,22 +1,4 @@
-
-@-moz-document url-prefix() {
-* { font-weight: 400; }
-h1, h2 
-}
-
 @font-face { font-family: 'helvetica neue'; src: local('Arial'); } 
-
-x:-o-prefocus, h1 {
-padding-top: 22px;
-}
-
-x:-o-prefocus, h2 {
-margin-top: -2%;
-}
-
-x:-o-prefocus, ul li {
-line-height: 20px;
-}
 
 
 #sitecontent {
@@ -30,6 +12,7 @@ margin: 0 auto;
 #sitecontent .leftsidebar {
 float: left;
 width: 19.2%; /* 150px */
+max-width: 150px;
 }
 
 #profilepic {
@@ -37,18 +20,15 @@ width: 19.2%; /* 150px */
 border-radius: 20px;
 max-width: 100%;
 }
-#sitecontent .leftsidebar ul {
-position: relative;
-margin-left: 40px;
-top:10px;
-list-style-type: none;
-font-family: 'Patua One', cursive;
-
-}
 
 #sitecontent a {
 text-decoration: none;
 color: #3f83ca;
+}
+
+#sitecontent .leftsidebar ul li {
+position: relative;
+top:-7px;
 }
 
 #sitecontent .leftsidebar ul li{
@@ -64,12 +44,10 @@ font-family: helvetica;
 border-bottom: 1px solid #3f83ca;
 }
 
-
-
-#sitecontent .rightsidebar {
+#sitecontent .rightsidebar { 
 float: right;
-width: 76.9%;
-
+width: 76.9%; /* 599px */
+max-width: 599px;
 }
 
 #sitecontent .rightsidebar > h1 {
@@ -77,16 +55,16 @@ font-size:3.750em;
 color: #3f83ca;
 font-family: helvetica;
 font-weight:bold;
-
+margin: 0;
 }
 
 #sitecontent .rightsidebar > h2 {
 line-height: 10px;
+margin: 0;
 font-size: 1.2em;
 color: #38414f;
 font-family: helvetica;
 font-weight: bold;
-
 }
 
 #sitecontent .rightsidebar > p {
@@ -95,30 +73,25 @@ padding-top: 25px;
 line-height: 20px;
 font-size: 0.938em;
 font-family:'Helvetica Neue', Arial, sans-serif;
-
-
 }
 
 #secondparagraph {
 text-align: justify;
 color: #A1A1A1;
 font-family:'Helvetica Neue', Arial, sans-serif;
-
-
 }
 
 #secondparagraph:hover {
 color:#3f83ca;
-opacity: 1.0;
-
 }
 
 #secondparagraph a {
-font-size: 14px;
+font-size: 0.95em;
 text-decoration: none;
 color: inherit;
 }
 
+/*-- Small -- */
 @media screen and (max-width: 480px) {
 
 
@@ -128,38 +101,63 @@ padding-top: 10px;
 }
 
 #sitecontent .leftsidebar {
-width: 100%;
 float: none;
+width: 100%;
 margin: 0 auto;
+}
+
+#sitecontent .leftsidebar ul {
+display: none;
+}
+
+#sitecontent .mobilelinks {
+/*hide for now */
+width: 100%;
+margin: 0 auto;
+float: none;
+}
+
+#sitecontent .mobilelinks > a {
+position: relative;
+top:70px;
+text-decoration: none;
+padding: 10px;
+margin-left: 3px;
+background-color: #3f83ca;
+border: 1px thick #3f83ff;
+border-radius: 5px;
+
+}
+
+/* These selectors = sort of unnecessary. Change to id's later. */
+
+#sitecontent .mobilelinks:first-child {
+display: block;
+position: relative;
+text-align: left;
+color: #3f83ca;
+}
+
+/* CSS3, like a boss. */
+#sitecontent .mobilelinks:nth-child(2) {
+display: block;
+position: relative;
+text-align: center;
+color: #3f83ca;
+}
+
+#sitecontent .mobilelinks:last-child {
+display: block;
+position: relative;
+text-align: right;
+color: #3f83ca;
 }
 
 #profilepic {
 display:block;
-margin: 0 auto;
+margin:0 auto;
 border-radius: 77px;
 float:none;
-}
-
-#sitecontent .leftsidebar ul {  
-position: relative;
-top:35px;
-}
-
-
-
-#sitecontent .leftsidebar ul li{
-position: relative;
-margin: 0 auto;
-margin-bottom: none;
-border-bottom: none;
-float: none;
-clear: none;
-padding:10px;
-border-radius: 2px;
-background-color:#3f83ca;
-border: 1px solid #00688B;
-font-family: helvetica;
-font-weight: 400;
 }
 
 #sitecontent a {
@@ -167,42 +165,42 @@ text-decoration: none;
 color: #EDEDED;
 }
 
-#sitecontent .leftsidebar ul li:hover {
-border-bottom: none;
-}
-
 #sitecontent .rightsidebar {
 float: none;
 margin: 0 auto;
 width: 90%;
+}
 
+#sitecontent .rightsidebar > p {
+padding-top: 45px;
 }
 
 #sitecontent .rightsidebar > h1 {
 position: relative;
-bottom: 36px;
+bottom:10px;
 text-align: center;
 font-size:1.875em;
-font-weight: 600;
 color: #3f83ca;
-margin-top: 6%;
 font-family: helvetica;
 font-weight:bold;
-
 }
 
 #sitecontent .rightsidebar > h2 {
 display:none;
-
 }
 
 #secondparagraph {
 display: none;
-
 }
 
 #sitecontent .rightsidebar > p > a:first-child {
 color:#3f83ca;
 }
-
 }
+
+@media screen and (min-width:481px) and (max-width:2000px) {
+  #sitecontent .mobilelinks {
+		display: none;
+	}
+}
+
