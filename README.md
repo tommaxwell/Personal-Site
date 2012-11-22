@@ -15,3 +15,4 @@ smartphones. It utilizes the Normalize.css reset. It's not 100% complete, but I'
 
 <b>Update: November 20, 2012 -</b> I've added the YUI CSS reset for better browser compatibility. You're welcome.
 
+<b>Update: November 22, 2012 -</b> StackOverflow members suggested I switch the CSS reset to Normalize, so I did. Enjoy
