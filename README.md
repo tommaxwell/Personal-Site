@@ -1,9 +1,8 @@
 <h1> Personal Site Template </h1>
 
 
-<p> This project is a simple personal website made in HTML and CSS. Feel free to copy it and use it as your own,
-but remember to change the link destinations, picture, and main paragraph. The font I used on my deployment is <a href
-= "http://processtypefoundry.com/fonts/klavika/">Klavika</a>, so you'll have to purchase it or use your own. </p>
+<p> This project is a simple template for a personal website, complete with responsive design and a media query to target 
+smartphones. It utilizes the Normalize.css reset. It's not 100% complete, but I'd love you forever if you contribute.  </p>
 
 <b>Here's the template in action: http://www.tommaxwell.me</b>
 
