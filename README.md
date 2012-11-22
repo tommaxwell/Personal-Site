@@ -2,7 +2,7 @@
 
 
 <p> This project is a simple template for a personal website, complete with responsive design and a media query to target 
-smartphones. It utilizes the Normalize.css reset. It's not 100% complete, but I'd love you forever if you contribute.  </p>
+smartphones. It utilizes the Normalize.css reset. It's not 100% complete, but I'd love you forever if you'd contribute.  </p>
 
 <b>Here's the template in action: http://www.tommaxwell.me</b>
 
