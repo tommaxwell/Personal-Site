@@ -1,18 +1,20 @@
-@font-face { font-family: 'helvetica neue'; src: local('Arial'); } 
 
+body {
+	font-weight: normal !important;
+}
 
 #sitecontent {
 display: block;
-width: 90%; /* 780px */
-max-width: 780px;
 padding-top: 150px;
+width: 90%; /* 780x */
+max-width: 780px;
 margin: 0 auto;
 }
 
 #sitecontent .leftsidebar {
-float: left;
 width: 19.2%; /* 150px */
 max-width: 150px;
+float: left;
 }
 
 #profilepic {
@@ -22,49 +24,68 @@ max-width: 100%;
 }
 
 #sitecontent a {
-text-decoration: none;
 color: #3f83ca;
+text-decoration: none;
+}
+
+#sitecontent .leftsidebar a {
+color: white;
+text-decoration: none;
 }
 
 #sitecontent .leftsidebar ul li {
 position: relative;
+right: 6px;
 top:-7px;
 }
 
-#sitecontent .leftsidebar ul li{
+#sitecontent .leftsidebar ul li {
 display:inline;
-margin:2px;
+margin:3px;
+padding: 7px;
+border: 2px solid rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+background-color: #A1A1A1;
 float: left;
 clear: both;
-border-bottom: 1px solid #E5E5E5;
-font-family: helvetica;
+font-family: 'Helvetica Neue', Helvetica, sans-serif;
+font-size: 0.9em;
+transition: border, background-color 1s;
+-webkit-transition: border, background-color 1s;
+-moz-transition: border, background-color 1s;
+-o-transition: border, background-color 1s;
 }
 
 #sitecontent .leftsidebar ul li:hover {
-border-bottom: 1px solid #3f83ca;
+background-color: #3f83ca;
+border: 2px solid rgba(51, 119, 190, 1);
+transition: border, background-color 1s;
+-webkit-transition: border, background-color 1s;
+-moz-transition: border, background-color 1s;
+-o-transition: border, background-color 1s;
 }
 
 #sitecontent .rightsidebar { 
-float: right;
 width: 76.9%; /* 599px */
 max-width: 599px;
+float: right;
 }
 
 #sitecontent .rightsidebar > h1 {
-font-size:3.750em;
 color: #3f83ca;
-font-family: helvetica;
+font-family: 'Helvetica Neue', Helvetica, sans-serif;
+font-size:3.750em;
 font-weight:bold;
 margin: 0;
 }
 
 #sitecontent .rightsidebar > h2 {
-line-height: 10px;
 margin: 0;
-font-size: 1.2em;
 color: #38414f;
-font-family: helvetica;
+font-family: 'Helvetica Neue', Helvetica, sans-serif;
+font-size: 1.2em;
 font-weight: bold;
+line-height: 10px;
 }
 
 #sitecontent .rightsidebar > p {
@@ -72,27 +93,16 @@ text-align: justify;
 padding-top: 25px;
 line-height: 20px;
 font-size: 0.938em;
-font-family:'Helvetica Neue', Arial, sans-serif;
+font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-#secondparagraph {
-text-align: justify;
-color: #A1A1A1;
-font-family:'Helvetica Neue', Arial, sans-serif;
+#p2 {
+margin-top: -10px;
 }
 
-#secondparagraph:hover {
-color:#3f83ca;
-}
-
-#secondparagraph a {
-font-size: 0.95em;
-text-decoration: none;
-color: inherit;
-}
 
 /*-- Small -- */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 650px) {
 
 
 #sitecontent {
@@ -111,7 +121,6 @@ display: none;
 }
 
 #sitecontent .mobilelinks {
-/*hide for now */
 width: 100%;
 margin: 0 auto;
 float: none;
@@ -138,7 +147,6 @@ text-align: left;
 color: #3f83ca;
 }
 
-/* CSS3, like a boss. */
 #sitecontent .mobilelinks:nth-child(2) {
 display: block;
 position: relative;
@@ -175,6 +183,10 @@ width: 90%;
 padding-top: 45px;
 }
 
+#p2 {
+	display: none;
+}
+
 #sitecontent .rightsidebar > h1 {
 position: relative;
 bottom:10px;
@@ -198,7 +210,9 @@ color:#3f83ca;
 }
 }
 
-@media screen and (min-width:481px) and (max-width:2000px) {
+
+
+@media screen and (min-width:651px) and (max-width:2000px) {
   #sitecontent .mobilelinks {
 		display: none;
 	}
