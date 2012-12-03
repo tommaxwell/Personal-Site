@@ -1,7 +1,43 @@
 
 body {
-	font-weight: normal !important;
+font-weight: normal !important;
 }
+
+#topcolor {
+width: 100%;
+margin:0 auto;
+height: 3px;
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+#emailto {
+display: block;
+width: 100%;
+margin: 0 auto;
+}
+
+#emailme {
+position: relative;
+float: right;
+margin-right: 80px;
+text-decoration: none;
+font-family: 'Helvetica Neue', Helvetica, sans-serif;
+font-size: 0.9em;
+}
+
+/* emailme styling */
+#emailme {
+color: white;
+padding-top:10px;
+padding-bottom: 10px;
+padding-left: 15px;
+padding-right: 15px;
+background-color: #A1A1A1;
+border-bottom-left-radius: 7px;
+border-bottom-right-radius: 7px;
+border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
 
 #sitecontent {
 display: block;
@@ -35,7 +71,7 @@ text-decoration: none;
 
 #sitecontent .leftsidebar ul li {
 position: relative;
-right: 6px;
+right: 7px;
 top:-7px;
 }
 
@@ -44,7 +80,7 @@ display:inline;
 margin:3px;
 padding: 7px;
 border: 2px solid rgba(0, 0, 0, 0.1);
-border-radius: 5px;
+border-radius: 3px;
 background-color: #A1A1A1;
 float: left;
 clear: both;
@@ -104,6 +140,13 @@ margin-top: -10px;
 /*-- Small -- */
 @media screen and (max-width: 650px) {
 
+#topcolor {
+display: none;
+}
+
+#emailto {
+display: none;
+}
 
 #sitecontent {
 width: 100%;
@@ -179,12 +222,12 @@ margin: 0 auto;
 width: 90%;
 }
 
-#sitecontent .rightsidebar > p {
-padding-top: 45px;
+#p2 {
+display: none;
 }
 
-#p2 {
-	display: none;
+#sitecontent .rightsidebar > p {
+padding-top: 45px;
 }
 
 #sitecontent .rightsidebar > h1 {
@@ -213,8 +256,8 @@ color:#3f83ca;
 
 
 @media screen and (min-width:651px) and (max-width:2000px) {
-  #sitecontent .mobilelinks {
-		display: none;
-	}
+#sitecontent .mobilelinks {
+display: none;
+}
 }
 

@@ -16,6 +16,12 @@
 	
 <body>
 
+<div id="topcolor"></div>
+
+<container id="emailto">
+<a href="mailto:tommaxwell95@gmail.com" id="emailme">Email Me!</a>
+</container>
+
 <container id = "sitecontent">
 
 
@@ -47,12 +53,24 @@
 
 <p>I'm an engineer, entrepreneur, and a trailblazer -- please don't call me a "rockstar," and especially not a "ninja." Previously I was on the advisory board of Lockerz, a social commerce startup that rewards its users for sharing content from across the web (you should <a href = "http://www.lockerz.com">check it out</a>). I like to believe that I have a strong business acumen, but I'm also passionate about front-end engineering. I code in some pretty familiar languages and frameworks like JavaScript, jQuery, CoffeeScript, and some other stuff. I'm also a hardcore nomad, so it's hard to catch me in one place for very long. </p>
 
-<p id="p2">Before studying business or computer science, I was kind of a big deal on YouTube (not modest enough?). My technology-related videos garnered millions of views and thousands of subscribers before I decided that coding and startups were more important to me. Searching for my next opportunity. <a href="mailto:tommaxwell95@gmail.com">Email me.</a>
+<p id="p2">Before studying business or computer science, I was kind of a big deal on YouTube (not modest enough?). My technology-related videos garnered millions of views and thousands of subscribers before I decided that coding and startups were more important to me.
 </p>
 
 </div>
 
 
 </container>			
-		
+<script type="text/javascript" src="/jquery.js"></script>	
+<script type="text/javascript">
+$("#emailme").mouseover(function(){
+    $(this).animate({
+        paddingTop: "12px"
+    }, 100);
+}).mouseout(function(){
+    $(this).animate({
+        paddingTop: "10px"
+    }, 100);
+});
+</script>
 </body>
+</html>
