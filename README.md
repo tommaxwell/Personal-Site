@@ -17,4 +17,4 @@ smartphones. It utilizes the Normalize.css reset. It's not 100% complete, but I'
 
 <b>Update: November 22, 2012 -</b> StackOverflow members suggested I switch the CSS reset to Normalize, so I did. Enjoy
 
-<b>Update: December 2, 2012 -</b> Added a new jQuery-enabled email tab.
+<b>Update: December 2, 2012 -</b> Added a new jQuery-enabled email tab. Will clean-up code soon. 
